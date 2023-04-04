@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 
 import ProductCard from '../components/ProductCard';
 
+import { products } from '../mock/products'
+
 export default function HomePage() {
   return (
     <>
@@ -18,7 +20,7 @@ export default function HomePage() {
         </Link>
       </nav>
       <div className="pt-16 p-4 grid grid-cols-2 gap-x-2 gap-y-4">
-        {Array(10).fill(null).map((_, i) => <ProductCard key={i} />)}
+        {products.map((product) => <ProductCard key={product.name} {...product} />)}
       </div>
     </>
   );

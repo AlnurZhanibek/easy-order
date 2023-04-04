@@ -17,12 +17,10 @@ export default function CartPage() {
       </nav>
       <div className="pt-12 pb-4">
         <ul className="divide-y p-2">
-          {Array(10).fill(null).map((_, i) => (
             <li key={i} className="flex justify-between items-center p-2">
-              <p>Блины жяйские</p>
-              <p>100 тг</p>
+              <p>Котлеты из фарша в панировочных сухарях</p>
+              <p>2300 тг</p>
             </li>
-          ))}
         </ul>
         <div
           className="
