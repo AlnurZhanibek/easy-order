@@ -17,7 +17,7 @@ export default function CartPage() {
       </nav>
       <div className="pt-12 pb-4">
         <ul className="divide-y p-2">
-            <li key={i} className="flex justify-between items-center p-2">
+            <li className="flex justify-between items-center p-2">
               <p>Котлеты из фарша в панировочных сухарях</p>
               <p>2300 тг</p>
             </li>
@@ -29,7 +29,7 @@ export default function CartPage() {
           "
         >
           <p>Итого:</p>
-          <p>1000 тг</p>
+          <p>2300 тг</p>
         </div>
         <div className="p-4">
           <button
